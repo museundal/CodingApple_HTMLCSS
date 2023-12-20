@@ -88,6 +88,7 @@ border-radius: 5px;
     background-position: center;
     /* margin collapse 현상 방지 */
     padding: 1px;
+    position: relative;
 }
 .main-title{
     color: white;
@@ -101,15 +102,21 @@ border-radius: 5px;
     font-family: 'HS-Regular';
     margin-left: 300px;
 }
-.start-button{
+.main-button{
     background-color: white;
+    border: none;
     border-radius: 10px;
-    padding: 3px;
-    margin-left: 300px;
+    padding: 15px;
+    /* position absolute 가운데정렬하기 */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+
 }
-.start-button>a{
+.main-button>a{
     color: blue;
     font-family: 'HS-Regular';
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
 }
