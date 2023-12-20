@@ -1,3 +1,11 @@
+div{
+    box-sizing: border-box;
+}
+
+body {
+    margin : 0;
+}
+
 .profile{
 width: 30%;
 display: block;
@@ -119,4 +127,16 @@ border-radius: 5px;
     font-family: 'HS-Regular';
     font-size: 20px;
     text-decoration: none;
+}
+.explain-box{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-family :'HS-Regular';
+    font-size: 20px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    top: -30px;
 }
