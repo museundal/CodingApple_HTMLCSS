@@ -25,28 +25,91 @@ margin-right: auto;
 }
 .container{
     width: 800px;
+    /* 마진 상 우 하 좌측 */
+    margin: 10px auto 30px auto;
+    display: block;
 }
-.header{
-    width: 100%;
-    height: 50px;
-    background:aquamarine;
-}
-.left-box{
-    /* 부모태그의 30% */
-    width: 20%;
-    height: 400px;
-    background: cornflowerblue;
-    float: left; 
-}
-.right-box{
+.blog-content{
     width: 80%;
-    height: 400px;
-    background: coral;
+    height: 200px;
+    background:#eee;
     float: left;
 }
-.footer{
+.blog-img{
+    width: 20%;
+    height: 200px;
+    background: yellow;
+    float: left;
+}
+.blog-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: block;
+    float: left;
+}
+.blog-name{
+    float: left;
+}
+nav{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navBar>li{
+display: inline-block;
+width: 60px;
+text-align: center;
+background: #eee;
+padding: 10px;
+border-radius: 5px;
+}
+.link{
+    font-size: 16px;
+    /* 밑줄 제거 */
+    text-decoration: none;
+}
+.link:visited{
+    color: black;
+}
+@font-face {
+    font-family: 'HS-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.main-background{
     width: 100%;
-    height: 100px;
-    background-color: grey;
-    clear: both;
+    height: 800px;
+    background-image:  url(/img/santa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin collapse 현상 방지 */
+    padding: 1px;
+}
+.main-title{
+    color: white;
+    font-family :'HS-Regular';
+    font-size: 40px;
+    margin-top: 350px;
+    margin-left: 300px;
+}
+.main-content{
+    color: white;
+    font-family: 'HS-Regular';
+    margin-left: 300px;
+}
+.start-button{
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 300px;
+}
+.start-button>a{
+    color: blue;
+    font-family: 'HS-Regular';
+    font-size: 16px;
+    text-decoration: none;
 }
