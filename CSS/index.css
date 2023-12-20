@@ -140,3 +140,11 @@ border-radius: 5px;
     position: relative;
     top: -30px;
 }
+
+input[type=text]{
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
